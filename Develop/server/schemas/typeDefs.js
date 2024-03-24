@@ -1,6 +1,6 @@
-const { graphQL } = require("appollo-server-express");
 
-const typeDefs = graphQL`
+
+const typeDefs = `
 type Mutation {
 login(email: String!, password: String!): Auth
 addUser(username: String!, email: String!, password: String!): Auth
